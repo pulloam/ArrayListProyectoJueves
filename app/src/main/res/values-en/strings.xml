@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArrayList Proyect...</string>
+    <string name="hint_nombre">Name</string>
+    <string name="hint_rut">Document Identification</string>
+    <string name="hint_correo">Email</string>
+    <string name="btn_aceptar">Submit</string>
+</resources>

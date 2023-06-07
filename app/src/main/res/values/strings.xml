@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Proyecto ArrayList...</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_rut">Rut</string>
+    <string name="hint_correo">Correo</string>
+    <string name="btn_aceptar">Aceptar</string>
+</resources>
