@@ -2,12 +2,21 @@ package com.example.arraylistproyecto;
 
 import android.util.Log;
 
-public class Cliente {
+import java.io.Serializable;
+
+public class Cliente implements Serializable {
     private String rut;
     private String nombre;
     private String correo;
     private int edad;
     private float estatura;
+
+    //region  constructores
+
+    public Cliente(String rut,String nombre, int edad){
+       this(rut, edad);
+       this.nombre = nombre;
+    }
 
     public Cliente(String rut, int edad){
         setEdad(edad);
@@ -21,6 +30,8 @@ public class Cliente {
         }
     }
 
+    //endregion
+
     private boolean rutOK(String rut){
         return !rut.isEmpty();
     }
@@ -30,6 +41,22 @@ public class Cliente {
 
     public String getRut(){
         return rut;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public float getEstatura() {
+        return estatura;
     }
 
     public void setEdad(int edad){

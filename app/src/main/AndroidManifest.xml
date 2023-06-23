@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ArrayListProyecto"
         tools:targetApi="31">
         <activity
+            android:name=".ClienteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
